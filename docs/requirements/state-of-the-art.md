@@ -20,7 +20,7 @@
 
 ## Порівняльна характеристика існуючих засобів вирішення завдання
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
+| Сервис\Инструметы  | Center Aligned  | Right Aligned |
 |:------------- |:---------------:| -------------:|
 | col 3 is      | some wordy text |     **$1600** |
 | col 2 is      | centered        |         $12   |
