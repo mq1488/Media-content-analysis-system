@@ -24,9 +24,9 @@
 |:----------------:|:---------------:|:--------------:|:-------:|:-----:|:----:|:----:|:---:|:----:|:--:|:----:|
 |[youscan](https://youscan.io/)| + |+ |+ |+ |+ | - |+|+| - | - |
 |[Semantrum](https://promo.semantrum.net/uk/golovna/)| + | +  | + | + | - | + |  + | + | + | +| 
-|[context-ua](http://www.context-ua.com/)|+|+|+|       |      |      |+|      |    |      | 
-|                  |                                 |               |         |       |      |      |     |      |    |      | 
-|                  |                                 |               |         |       |      |      |     |      |    |      | 
+|[context-ua](http://www.context-ua.com/)|+|+|+|+|+|+-|+|+|+|+| 
+|[ukrcontent](https://ukrcontent.com/)|+|+-|+|+|+|+-|+-|+|-|+| 
+|[1st Rep Agency](https://1ra.com.ua/pr-analitika/media-content-analysis)|                                 |               |         |       |      |      |     |      |    |      | 
 |[neticle](https://neticle.com/mediaintelligence/hu/)|+|+-|+|+|+|+| -| +| -|-| 
 |                  |                                 |               |         |       |      |      |     |      |    |      | 
 
