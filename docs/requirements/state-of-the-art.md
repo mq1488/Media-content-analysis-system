@@ -24,10 +24,10 @@
 |:----------------:|:---------------:|:--------------:|:-------:|:-----:|:----:|:----:|:---:|:----:|:--:|:----:|
 |[youscan](https://youscan.io/)| + |+ |+ |+ |+ | - |+|+| - | - |
 |[Semantrum](https://promo.semantrum.net/uk/golovna/)| + | +  | + | + | - | + |  + | + | + | +| 
-|[context-ua](http://www.context-ua.com/)|+|+ |         |       |      |      |     |      |    |      | 
+|[context-ua](http://www.context-ua.com/)|+|+|+|       |      |      |+|      |    |      | 
 |                  |                                 |               |         |       |      |      |     |      |    |      | 
 |                  |                                 |               |         |       |      |      |     |      |    |      | 
-|[neticle](https://neticle.com/mediaintelligence/hu/)|+| -|+|+|+|+| -| +| -|-| 
+|[neticle](https://neticle.com/mediaintelligence/hu/)|+|+-|+|+|+|+| -| +| -|-| 
 |                  |                                 |               |         |       |      |      |     |      |    |      | 
 
 ## Висновки
