@@ -114,4 +114,4 @@
 
 ## 3. Діаграма сценаріїв
 
-![usecase-diagram](http://www.plantuml.com/plantuml/png/ZPE_JW914CPxdc93VmKWsXY31QMLiJORlDWWcjiZqSG2pg0M952WXT6eRq1Em0k4unLctiYvOHTnD4GIMFBTRxxvitCL4-eWR9xLSxeMdWSg3q-GOWiIR6E4Dn334E_oIXjrPFmWbrFqSUGpZ65Etn5CO8mjfWvqGvyIkCxrYHh231ynWWIcpEqtTFtAX3-u1vXY6nQP5qPCLIyl_609PJzSWzgzzZoNHwZMLQZMXTMcyMlQ-9JjZV8CkCiMzNXBrVKuvs7rk50Gx3jL7cTpuOxds5Dqf9a47v0gEXQGk7anyUrL55ulH8oepmHcZbNmINyNP9_YVPO2kwlmqd_2UMOafdRINJeJx6potHA-0meU4Hslkr9Fl_efYy1Njkzm-CJDP_D8jeL57sACbcj75SlBs17txpMzlUKj2Kt0TaMKPn-Lf6hdmBBTd9LS_5CjCsmNogdKJiLldD0xz0K0)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases.puml)
