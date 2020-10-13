@@ -114,4 +114,4 @@
 
 ## 3. Діаграма сценаріїв
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases.puml)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/general-diagram-of-use-cases.puml)
