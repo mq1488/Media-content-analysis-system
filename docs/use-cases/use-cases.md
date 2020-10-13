@@ -18,6 +18,7 @@
 4. Користувач підтверджує правильність введених даних.  
 5. Система перевіряє введені дані.  
 6. Система надає доступ до створеного акаунту.  
+
 **ДІАГРАМА**:  
 ![se-1-1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-1.puml)
 
@@ -38,6 +39,7 @@
 3. Аналітик заповнює поле «Poll title» та додає принаймні одне питання.  
 4. Аналітик завершує редагування анкети натисканням кнопки «Done».  
 5. Система опрацьовує анкету.  
+
 **ДІАГРАМА**:  
 ![se-1-2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-2.puml)
 
@@ -52,6 +54,7 @@
 **ОСНОВНИЙ СЦЕНАРІЙ**:  
 1. Менеджер обирає експертів та натискає кнопку «Share».  
 2. Система надсилає запрошення експертам.  
+
 **ДІАГРАМА**:  
 ![se-1-3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-3.puml)
 
@@ -68,8 +71,9 @@
 2. Система пропонує форму «New personal invitation».
 3. Менеджер заповнює поля «Name», «Surname».  
 4. Менеджер натискає кнопку «Create personal link».
-5. Система генерує персональне посилання.  
+5. Система генерує персональне посилання.   
 6. Менеджер надсилає персональне посилання експерту.  
+
 **ДІАГРАМА**:  
 ![se-1-4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-4.puml)
 
@@ -87,6 +91,7 @@
 3. Аналітик заповнює поле «Question type».  
 4. Система пропонує форму питання згідно обраному типу.  
 5. Аналітик заповнює поле «Question», «Answer» та по бажанню поле «Description».  
+
 **ДІАГРАМА**:  
 ![se-1-5](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-5.puml)
 
@@ -104,6 +109,7 @@
 3. Експерт заповнює поля з відповідями.  
 4. Експерт натискає кнопку «Send».  
 5. Система зберігає відповіді.  
+
 **ДІАГРАМА**:  
 ![se-1-6](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-6.puml)
 
@@ -124,6 +130,7 @@
 3. Користувач заповнює поля «E-mail», «Password».  
 4. Користувач натискає кнопку «Login».  
 5. Система авторизує користувача.  
+
 **ДІАГРАМА**:  
 ![se-1-7](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-7.puml)
 
