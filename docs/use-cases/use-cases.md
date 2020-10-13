@@ -17,7 +17,9 @@
 3. Користувач заповнює поля: логін, пароль, прізвище, ім’я, e-mail.  
 4. Користувач підтверджує правильність введених даних.  
 5. Система перевіряє введені дані.  
-6. Система надає доступ до створеного акаунту.
+6. Система надає доступ до створеного акаунту.  
+**ДІАГРАМА**:  
+![se-1-1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-1.puml)
 
 ### 2.2 Сценарій створення аналітиком нового опитування  
 
@@ -35,7 +37,9 @@
 2. Система пропонує форму «New poll».  
 3. Аналітик заповнює поле «Poll title» та додає принаймні одне питання.  
 4. Аналітик завершує редагування анкети натисканням кнопки «Done».  
-5. Система опрацьовує анкету.
+5. Система опрацьовує анкету.  
+**ДІАГРАМА**:  
+![se-1-2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-2.puml)
 
 ### 2.3 Надсилання запрошень для участі в опитуванні зареєстрованим експертам  
 
@@ -47,7 +51,9 @@
 **ВИКЛЮЧНІ СИТУАЦІЇ**: Відсутні  
 **ОСНОВНИЙ СЦЕНАРІЙ**:  
 1. Менеджер обирає експертів та натискає кнопку «Share».  
-2. Система надсилає запрошення експертам.
+2. Система надсилає запрошення експертам.  
+**ДІАГРАМА**:  
+![se-1-3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-3.puml)
 
 ### 2.4 Надсилання персональних запрошень для участі в опитуванні  
 
@@ -64,6 +70,8 @@
 4. Менеджер натискає кнопку «Create personal link».
 5. Система генерує персональне посилання.  
 6. Менеджер надсилає персональне посилання експерту.  
+**ДІАГРАМА**:  
+![se-1-4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-4.puml)
 
 ### 2.5 Сценарій додавання питання
 
@@ -79,6 +87,8 @@
 3. Аналітик заповнює поле «Question type».  
 4. Система пропонує форму питання згідно обраному типу.  
 5. Аналітик заповнює поле «Question», «Answer» та по бажанню поле «Description».  
+**ДІАГРАМА**:  
+![se-1-5](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-5.puml)
 
 ### 2.6 Сценарій проходження опитування
 
@@ -93,7 +103,9 @@
 2. Система пропонує форму «Poll for experts».  
 3. Експерт заповнює поля з відповідями.  
 4. Експерт натискає кнопку «Send».  
-5. Система зберігає відповіді. 
+5. Система зберігає відповіді.  
+**ДІАГРАМА**:  
+![se-1-6](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-6.puml)
 
 ### 2.7 Сценарій авторизації користувача
 
@@ -111,8 +123,10 @@
 2. Система пропонує форму «Authentication».   
 3. Користувач заповнює поля «E-mail», «Password».  
 4. Користувач натискає кнопку «Login».  
-5. Система авторизує користувача. 
+5. Система авторизує користувача.  
+**ДІАГРАМА**:  
+![se-1-7](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/se-1-7.puml)
 
 ## 3. Діаграма сценаріїв
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/general-diagram-of-use-cases.puml)
+![general-diagram-of-use-cases](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/snyk04/SurvExp/main/src/uml/use-cases/general-diagram-of-use-cases.puml)
