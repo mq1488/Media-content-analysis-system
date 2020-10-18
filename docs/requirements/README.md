@@ -1,5 +1,4 @@
 # Аналіз вимог до інформаційної системи
 
-В цьому файлі необхідно перелічити всі документи, розроблені в проекті та дати посилання на них.
-
-*В рамках проекту розробляються документи "Аналіз предметної області" та "Запити зацікавлених осіб".*
+[Аналіз придметної області](https://github.com/mq1488/Media-content-analysis-system/blob/master/docs/requirements/stakeholders-needs.md)
+[Запит зацікавлених осіб](https://github.com/mq1488/Media-content-analysis-system/blob/master/docs/requirements/state-of-the-art.md)
