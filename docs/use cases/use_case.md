@@ -1,6 +1,14 @@
 
 ## 2. Сценарії  
 
+**Відношення узагальнення**
+![main](http://www.plantuml.com/plantuml/png/VLFDQkfG4DxdAGRtMVX_L-9Tt2UutDs54ZIBGhLWugBGXTNQMf0gfIXqKUeR78FM47zyXU-yKISdyN28fSkPy_ryCvdKFT_f-DtMbUKq_EiEvV26W-mXb7UoBmS88EHZZXoF_dbkHuEcM64dPzZBcGBs6DQFYGhwkzcwR6li8X736Zi8zVxtnlFTbcN5acJRjxMKeMkDw7fkm_5SLld0MhvghmVsdIHQVoxoUGCtHP0aGOZD6R9W85yuLuzVHvnipvDC24Uc7R34DWvBYCvNmJC7MgregCqXS6HidrXCi1HpHyoAIAtfNadjqa1pBL4o9DwnJFqZY9zfPOEsYBqGyFjJPXALWjaX3nJ9WMPNp2smp-gaW9KSf_atftaqgsfwgk_vgVrYECKPiOqlGj_5Cp5GqFysGI1IQnGC6Hk0x-Oa18GbXFg2G-A0Wer2ETHXVfskfslNaXl8r8LCNR8iTMHafurYfcR5vEfqfvnjLBADgbLtsqt-Uxu0)
+
+
+**Структурування моделі варіантів використання**
+
+
+
 ### 2.1 Сценарій реєстрації нового користувача
 
 **ID**: S1.1  
