@@ -11,5 +11,5 @@
 - Кайдаш Андрій | *email:* andriikaidash69@gmail.com| *telegram:* 
 - Лаппо Максим | *email:* mlappo37@gmail.com | *telegram:* @mlappo37
 - Герейханов Тімур | *email:* simplex1135@gmail.com | *telegram:* 
-- Лазарєв Матвій| *email:* lazarev280601@gmail.com | *telegram:* 
+- Лазарєв Матвій| *email:* lazarev280601@gmail.com | *telegram:* @Severianin_28 
 - Кондратюк Павло | *email:* pasha.kondratiuk32@gmail.com | *telegram:* 
