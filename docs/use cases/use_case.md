@@ -134,9 +134,6 @@
 **ВИКЛЮЧНІ СИТУАЦІЇ**:   
 1. Система помилилась.
 
-
-**ДІАГРАМА**: ![se-1-6](http://www.plantuml.com/plantuml/png/TP4zJiD048LxdsBQb536JGwI1WawC0X2vyA9WOWceK16ea7SOB6ynFXdVOKtD-9fx9Hni-FPxttQdLqyh2xkLuytrr6AJmJDKEjQDvgZXDDj6Wa_OwoQumEL5lZJDNhTwRjWu6-5W8Dch5ejn8YjI6oH5D-Z4nuTN3fws1mOAhNGLytfWQEbOx1dYpHFufW9olKeUZk57ALVy6nwqsQwfnQzYHqpkLZqoPmTeo-aTl4KBL7Z1xKv6GiCzV22Wv0D-4LBW90-Yus6bpNhXcivNoPdCyPRaetDZblSt0kB1WtvtDWyNYRdCxlwC9srejkFT3nD-_OkMbmbbtoLVm00)
-
 **ОСНОВНИЙ СЦЕНАРІЙ**:   
 1. Підозрілі дії користувача.
 2. Система сповіщує адміністратора.
@@ -144,6 +141,10 @@
 4. Адміністратор вибирає одне з можливих варіантів:
   1. Блокування аккаунту;
   2. Попередження;
+  
+**ДІАГРАМА**: ![se-1-6](http://www.plantuml.com/plantuml/png/TP4zJiD048LxdsBQb536JGwI1WawC0X2vyA9WOWceK16ea7SOB6ynFXdVOKtD-9fx9Hni-FPxttQdLqyh2xkLuytrr6AJmJDKEjQDvgZXDDj6Wa_OwoQumEL5lZJDNhTwRjWu6-5W8Dch5ejn8YjI6oH5D-Z4nuTN3fws1mOAhNGLytfWQEbOx1dYpHFufW9olKeUZk57ALVy6nwqsQwfnQzYHqpkLZqoPmTeo-aTl4KBL7Z1xKv6GiCzV22Wv0D-4LBW90-Yus6bpNhXcivNoPdCyPRaetDZblSt0kB1WtvtDWyNYRdCxlwC9srejkFT3nD-_OkMbmbbtoLVm00)
+
+
   
 ### 2.7 Сценарій сповіщення про помилку
 
