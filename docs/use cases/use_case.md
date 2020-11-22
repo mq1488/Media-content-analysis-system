@@ -57,7 +57,7 @@
 5. Система авторизує користувача.  
 
 **ДІАГРАМА**: 
-![se-1-2](http://www.plantuml.com/plantuml/png/XT5DIeLG70NmkQku2sW5DNaBQHBKh5wHDdDWtZucaH6XK8GqRdAnel33m1MSiwCEVqTH3mNnV_7uyrnTnSdUQN9sT1YbUCJ835yyPqwF1e7NQUHqMCQcRJmZC8T2Q3KzE5q6ZFX6I-zsrzChxj0eOHG-bRbYoMBgTWn8yJA_0H_e4UIRMYijHET0BvKN1lGo4VxngbdRt5bcXM1Y8_DMfYqw5auTdpI-iSGmTLjQeqPWPhTlhEdoLlNGFIz5l2zixTVde3VdRsc46OcJuvDeTR3Uro_v0G00)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.2)
 
 ### 2.3 Сценарій створення запита користувачем
 
@@ -82,7 +82,8 @@
 4. Система обробляє задані дані.
 5. Система надає інформацію користувачу у заданому форматі.
 
-**ДІАГРАМА**: ![se-1-3](http://www.plantuml.com/plantuml/png/TP7DIeT05CNtFiKyGG-W6n-aJL2xiaZRpSASg5Qr2OEWf7KRZQGOFmIVuDmtwZ0s5kHVbBbUplsTSpLEiuFpxEBaED1umYWvlkHI2Z5uHoqtEb2ydCPL8PxPBa0HBAi7nMF0Y0bMZDfFvZTKnDmIOESkSaCQhmiLBNhK-eTKqOo3V0On9CcLy-_9mUGPOZnZPxeGZwZniQIPUEHyxT5IH_qcQpFF2ngNg44dzsJXSy4oNgbyiHVvxx1wIed1PsVZMagvKx3_ut8nthzOZ6xPFxF5Qf1cfsT1V9GSyjTy0m00)
+**ДІАГРАМА**:
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.3)
 
 ### 2.4 Сценарій вирішення проблем
 
@@ -142,7 +143,9 @@
   1. Блокування аккаунту;
   2. Попередження;
   
-**ДІАГРАМА**: ![se-1-6](http://www.plantuml.com/plantuml/png/TP4zJiD048LxdsBQb536JGwI1WawC0X2vyA9WOWceK16ea7SOB6ynFXdVOKtD-9fx9Hni-FPxttQdLqyh2xkLuytrr6AJmJDKEjQDvgZXDDj6Wa_OwoQumEL5lZJDNhTwRjWu6-5W8Dch5ejn8YjI6oH5D-Z4nuTN3fws1mOAhNGLytfWQEbOx1dYpHFufW9olKeUZk57ALVy6nwqsQwfnQzYHqpkLZqoPmTeo-aTl4KBL7Z1xKv6GiCzV22Wv0D-4LBW90-Yus6bpNhXcivNoPdCyPRaetDZblSt0kB1WtvtDWyNYRdCxlwC9srejkFT3nD-_OkMbmbbtoLVm00)
+**ДІАГРАМА**:
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.6)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.6(2))
 
 
   
@@ -185,5 +188,6 @@
 3. Ситема надає результат користувачу.
 
 
-**ДІАГРАМА**:![se-1-8]( http://www.plantuml.com/plantuml/png/VP0z2i9048Nxd6BFOPfSHT3E7z7ORQ7Pe8rOY4GG5Bn130cHcCGhlBcHZqqGHCaMop0pxtlCynP-V-ulnoD7uunQLdZ8MW8nI13BLZkAp-xOgeSACLAEZWevonVt0mLs5MhSgUUFGeoI29M45bboVoEHd5mBqRWrBiZ0aMx9LzhI7gMOBtgdw42RL4B-JzbPG8t40lxuxpjHbyzbb6J8nJHCjdXXyHkE6BUDPpfplE5am1ZV)
+**ДІАГРАМА**:
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.8)
 
