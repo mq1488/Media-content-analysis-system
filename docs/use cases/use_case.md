@@ -32,7 +32,7 @@
 8. Система надає доступ до створеного акаунту.
 
 **ДІАГРАМА**: 
-![se-1-1](http://www.plantuml.com/plantuml/png/ZP91QZ9148Ntdg8Fu7y1tNYGVoF4HK1DICnk5iQ1P1Dq4mm4WhZEfcdjn3YP4Jp1gnlbLTam18QWCdHLL_NtgehgtKxwDvExqR2LuHMLJB6JUvb9ZW0lZrdByMSvPdNmnkkP9c5FwzdnA57XWBtaxl_u-8uruo6XcEai7h33buDdkhxBKShiM7GDcc5zKaN4DtoMb5OaABXYRgvAd_3c1fG9RMw1w3gEHuMDB56szThRuqAUscxmRzI_79wa_cYoWvUQBtCLDBeipeStzu78_8WWIvdAGi61_uWjlrAMZePNerkF65iEU4TPRtLGUMjJLTA7FcF-WW4jn1bzWwZIjBqyK6b-HiEhtro6Ou8Hq0HhRj3gjKfvL4deO8wZbxR1gkOKUGbVBu7atRHZLzUjtc1ymLty0G00) 
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/boldak/database_basics_template/master/src/uml/UC/UC_2.1)
 
 ### 2.2 Сценарій авторизації користувача
 
