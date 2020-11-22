@@ -32,7 +32,7 @@
 8. Система надає доступ до створеного акаунту.
 
 **ДІАГРАМА**: 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/boldak/database_basics_template/master/src/uml/UC/UC_2.1)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/mq1488/Media-content-analysis-system/tree/master/src/uml/UC/UC_2.1)
 
 ### 2.2 Сценарій авторизації користувача
 
