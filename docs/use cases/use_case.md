@@ -143,7 +143,8 @@
   1. Блокування аккаунту;
   2. Попередження;
   
-**ДІАГРАМА**:
+**ДІАГРАМИ**:
+
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.6)
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.6(2))
 
