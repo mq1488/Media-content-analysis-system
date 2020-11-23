@@ -32,7 +32,8 @@
 7. Користувач підтвержує регістрацію.
 8. Система надає доступ до створеного акаунту.
 
-**ДІАГРАМА**: 
+**ДІАГРАМА**:
+
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.1)
 
 ### 2.2 Сценарій авторизації користувача
@@ -85,6 +86,7 @@
 5. Система надає інформацію користувачу у заданому форматі.
 
 **ДІАГРАМА**:
+
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.3)
 
 ### 2.4 Сценарій вирішення проблем
@@ -106,7 +108,9 @@
 2. Система відкриває діалогове вікно.
 3. Система з'єднує користувача та адміністратора.
 
-**ДІАГРАМА**: ![se-1-4](http://www.plantuml.com/plantuml/png/VP0zIWKn58NxMKLuZNlGvcr5qCuVyOtTAvupXQKWGmO42tSGOWOapcIsyDqTUPDW9KoQtEGSldEI_Q6zV6oVRc-Q8-yaEV4jpz99ZyV9ox4nkegdJ1kcSpxqq6M9gDDWY2maLgBqPiU88rIBOLLVXsDXaTVTHONpMS5CpBW_x9jO0Z6duYiuw9NZXyGN2Szay69htYPhF9E1e9bzxVVlBJYJUvdITHQhLblqKscUybuJ3ktzGxE_lhlIp_i5)
+**ДІАГРАМА**:
+
+![se-1-4](http://www.plantuml.com/plantuml/png/VP0zIWKn58NxMKLuZNlGvcr5qCuVyOtTAvupXQKWGmO42tSGOWOapcIsyDqTUPDW9KoQtEGSldEI_Q6zV6oVRc-Q8-yaEV4jpz99ZyV9ox4nkegdJ1kcSpxqq6M9gDDWY2maLgBqPiU88rIBOLLVXsDXaTVTHONpMS5CpBW_x9jO0Z6duYiuw9NZXyGN2Szay69htYPhF9E1e9bzxVVlBJYJUvdITHQhLblqKscUybuJ3ktzGxE_lhlIp_i5)
 
 ### 2.5 Сценарій стеження за цілісністю та актуальністю інформації в базі даних 
 
@@ -147,6 +151,7 @@
   
 **ДІАГРАМИ**:
 
+
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.6)
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.6(2))
 
@@ -171,6 +176,7 @@
 
 
 **ДІАГРАМА**: 
+
 ![se-1-7](http://www.plantuml.com/plantuml/png/VP1B2i8m68JtFKNEePjUHT2T3x5rruMsAq5Gf7JV6yIYM6mRhp1p8uT05q9j82JvvvjXI1Z5irsyNos312Lg7fdYYHOs2OoML_rjK9xWPdY0mnsEAGk32ZKwxJSQM8EFj5RFHWCx7GqIzO1b_cDYDcegFLknu8cPhB3AQ5cWqqYqkbbv77NsGTT_I1-QItoXqpYNV1PqKITnRh1Q56-sGRXOp_M9Nm00)
 
 ### 2.8 Сценарій обробки інформації
@@ -192,5 +198,6 @@
 
 
 **ДІАГРАМА**:
+
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.8)
 
