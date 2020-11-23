@@ -56,8 +56,8 @@
 4. Користувач натискає кнопку «Вхід».  
 5. Система авторизує користувача.  
 
-**ДІАГРАМА**:\n
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.2)
+**ДІАГРАМА**:
+!["ijfiejifjefiefje"](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.2)
 
 ### 2.3 Сценарій створення запита користувачем
 
