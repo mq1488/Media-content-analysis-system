@@ -2,7 +2,7 @@
 ## 2. Сценарії  
 
 **Відношення узагальнення**
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/General%20diagram)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/General)
 
 
 **Структурування моделі варіантів використання**
