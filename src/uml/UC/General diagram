@@ -1,0 +1,19 @@
+@startuml
+actor "Користувач" as User
+actor "Адміністратор" as Admin
+
+User <|-- Admin
+
+usecase "Реєстрація" as SE_11
+usecase "Авторизація" as SE_12
+usecase "Вирішення проблем користувачів" as SE_13
+usecase "Запит на пошук інформації" as SE_14
+usecase "Стеження за цілісністю та \n актуальністю інформації в базах даних" as SE_18
+
+User -u-> SE_11
+User -u-> SE_12
+User -u-> SE_14
+
+Admin --> SE_13
+Admin --> SE_18
+@enduml
