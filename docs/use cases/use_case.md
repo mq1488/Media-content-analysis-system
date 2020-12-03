@@ -133,8 +133,6 @@
 3. Система сповіщує користувача.
   
 **ДІАГРАМИ**:
-
-
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/UC/UC_2.6)
 
 ### 2.6 Сценарій обробки інформації
