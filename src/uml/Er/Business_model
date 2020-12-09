@@ -1,6 +1,5 @@
 @startuml
-
-  '-Пользователь-'
+'-Пользователь-'
   entity User
   entity User.id
   entity User.Usersname
@@ -20,22 +19,28 @@
   '-Запрос-'
   entity Request
   entity Request.id
+  entity Request.status
+
   
 
   object Request.ready
   object Request.in_process
 
 
-  'Готовая инфа'
-  entity Prepared_data 
-  entity Raw_data 
-  entity Raw_data.text
-  entity Raw_data.graph
-  entity Raw_data.diagrams 
-  entity Raw_data.statistics
+  'Инфа'
+  entity Processed_Data
+  entity Untreated_Data
+  entity Untreated_Data.text
+  entity Untreated_Data.graph
+  entity Untreated_Data.diagrams 
+  entity Untreated_Data.statistics
 
  
- 
+  'Инструмент'
+  entity Tools
+  entity Tools.name
+  entity Tools.id
+  
    
    
   User.id -u-* User
@@ -56,17 +61,23 @@
   Request.id -u-* Request
   Request.status -u-* Request
 
-  Raw_data.text-u-* Raw_data
-  Raw_data.graph -u-* Raw_data
-  Raw_data.diagrams -u-* Raw_data
-  Raw_data.statistics -u-* Raw_data
+  Tools.id -u-* Tools
+  Tools.name -u-* Tools
+
+
+
+  Untreated_Data.text-u-* Untreated_Data
+  Untreated_Data.graph -u-* Untreated_Data
+  Untreated_Data.diagrams -u-* Untreated_Data
+  Untreated_Data.statistics -u-* Untreated_Data
  
-   Request.ready .u.> Request.status : instanceOf
-   Request.in_process .u.> Request.status : instanceOf
+  Request.ready .u.> Request.status : instanceOf
+  Request.in_process .u.> Request.status : instanceOf
 
 
 
   User "(0,*)"-u-"(1,1)" Request
-  Request "(0,*)"-u-"(1,1)" Prepared_data
-  Prepared_data "(0,*)"-u-"(1,1)" Raw_data
+  Request "(0,*)"-u-"(1,1)" Processed_Data 
+  Processed_Data "(0,*)"-u-"(1,1)" Tools
+  Tools "(0,*)"-u-"(1,1)" Untreated_Data
 @enduml
