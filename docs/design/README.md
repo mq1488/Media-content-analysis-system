@@ -7,3 +7,6 @@
 
 ## ER модель
 ![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/mq1488/Media-content-analysis-system/master/src/uml/Er/Er_model)
+
+## EER модель
+![atl](https://github.com/mq1488/Media-content-analysis-system/blob/master/src/uml/Er/image.png)
