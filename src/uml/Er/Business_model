@@ -29,6 +29,12 @@
 
   'Инфа'
   entity Processed_Data
+  entity Processed_Data.id
+  entity Processed_Data.type
+
+
+
+
   entity Untreated_Data
   entity Untreated_Data.text
   entity Untreated_Data.graph
@@ -64,13 +70,16 @@
   Tools.id -u-* Tools
   Tools.name -u-* Tools
 
-
+  Processed_Data.id -u-* Processed_Data
+  Processed_Data.type -u-* Processed_Data
 
   Untreated_Data.text-u-* Untreated_Data
   Untreated_Data.graph -u-* Untreated_Data
   Untreated_Data.diagrams -u-* Untreated_Data
   Untreated_Data.statistics -u-* Untreated_Data
  
+
+
   Request.ready .u.> Request.status : instanceOf
   Request.in_process .u.> Request.status : instanceOf
 
