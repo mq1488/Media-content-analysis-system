@@ -1,0 +1,28 @@
+@startuml
+entity User <<ENTITY>> {
+    id:int
+    Usersname:text
+    Roles:int
+    Status:int
+    Password:text
+    Email:int
+  }
+  
+  entity Request <<ENTITY>>{
+    id:int
+    Status:int
+  }
+  
+  entity Raw_data <<ENTITY>>{
+    Text:text
+    Grahp:image
+    Diagrams:image
+    Grahp:image
+    Statistics: xml
+			
+  }
+  
+ 
+  User "(0,*)"-u-"(1,1)" Request
+  Request "(0,*)"-u-"(1,1)"  Raw_data
+@enduml
