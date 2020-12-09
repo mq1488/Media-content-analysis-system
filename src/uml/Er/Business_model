@@ -1,0 +1,72 @@
+@startuml
+
+  '-Пользователь-'
+  entity User
+  entity User.id
+  entity User.Usersname
+  entity User.Password
+  entity User.Email
+  entity User.Status
+  entity User.Role
+
+  object User.guest 
+  object User.registred  
+  object User.banned
+  object User.admin
+  object User.user
+
+
+  
+  '-Запрос-'
+  entity Request
+  entity Request.id
+  
+
+  object Request.ready
+  object Request.in_process
+
+
+  'Готовая инфа'
+  entity Prepared_data 
+  entity Raw_data 
+  entity Raw_data.text
+  entity Raw_data.graph
+  entity Raw_data.diagrams 
+  entity Raw_data.statistics
+
+ 
+ 
+   
+   
+  User.id -u-* User
+  User.Usersname -u-* User
+  User.Password -u-* User
+  User.Status -u-* User
+  User.Email -u-* User
+  User.Role -u-* User
+
+
+  User.guest .u.> User.Status : instanceOf
+  User.registred .u.> User.Status : instanceOf
+  User.banned .u.> User.Status : instanceOf
+  User.admin .u.> User.Role : instanceOf
+  User.user .u.> User.Role : instanceOf
+
+
+  Request.id -u-* Request
+  Request.status -u-* Request
+
+  Raw_data.text-u-* Raw_data
+  Raw_data.graph -u-* Raw_data
+  Raw_data.diagrams -u-* Raw_data
+  Raw_data.statistics -u-* Raw_data
+ 
+   Request.ready .u.> Request.status : instanceOf
+   Request.in_process .u.> Request.status : instanceOf
+
+
+
+  User "(0,*)"-u-"(1,1)" Request
+  Request "(0,*)"-u-"(1,1)" Prepared_data
+  Prepared_data "(0,*)"-u-"(1,1)" Raw_data
+@enduml
