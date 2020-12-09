@@ -13,6 +13,21 @@ entity User <<ENTITY>> {
     Status:int
   }
   
+  entity Tools <<ENTITY>>{
+    Name:text
+    id: int
+		
+  }
+    
+
+  entity Processed_data <<ENTITY>>{
+    type: text
+    id: int
+		
+  }
+
+
+
   entity Raw_data <<ENTITY>>{
     Text:text
     Grahp:image
@@ -24,5 +39,8 @@ entity User <<ENTITY>> {
   
  
   User "(0,*)"-u-"(1,1)" Request
-  Request "(0,*)"-u-"(1,1)"  Raw_data
+  Request "(0,*)"-u-"(1,1)"  Processed_data
+  Processed_data "(0,*)"-u-"(1,1)"  Tools
+  Tools "(0,*)"-u-"(1,1)"  Raw_data
+
 @enduml
