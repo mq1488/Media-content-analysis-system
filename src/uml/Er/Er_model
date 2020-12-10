@@ -20,6 +20,7 @@ entity Beat{
     Beat "0,*" --- "1,1\ntype ( aka \nFB, VK, HTML)" BeatType
     
     Source "0,*"--"1,1" Beat
+
     
     
     entity ServiceNode {
@@ -33,6 +34,15 @@ entity Beat{
         id
         next
     }
+
+    entity User {
+        id
+        username
+        passwrod
+        email
+        status
+
+    }
   
   
   entity Stream {
@@ -40,6 +50,9 @@ entity Beat{
       description
       etc
   }
+
+   User "0,*"--"1,1" Beat
+
   
   ServiceChain "(0,*)"-- "(1,1)" ServiceNode
   
@@ -51,5 +64,4 @@ entity Beat{
   
   n -- Stream
   Beat "0,*" -u- "1,1" Stream
-
 @enduml
