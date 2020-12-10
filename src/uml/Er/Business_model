@@ -29,6 +29,23 @@ entity Source
   entity ServiceNode.OpenApi_yaml
 
 
+  entity User
+  entity User.id
+  entity User.Usersname
+  entity User.Password
+  entity User.Email
+  entity User.Status
+ 
+
+  entity Request
+  User.id -u-* User
+  User.Usersname -u-* User
+  User.Password -u-* User
+  User.Status -u-* User
+  User.Email -u-* User
+  User.Status -u-* User
+
+
 
   ServiceNode.url -u-* ServiceNode
   ServiceNode.name -u-* ServiceNode
@@ -66,4 +83,6 @@ entity Source
   Stream  "0,*" --- "1,1\nentryPoint\n(first service in pipeline)" ServiceChain
   ServiceChain "0,*"->"0,1\nnext" ServiceChain
   Beat "0,*" -u- "1,1" Stream
+  User "(0,)"-u-"(1,1)" Request
+  Request "(0,)"-u-"(1,1)" Beat
 @enduml
