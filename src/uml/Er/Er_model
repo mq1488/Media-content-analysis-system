@@ -1,46 +1,55 @@
 @startuml
-entity User <<ENTITY>> {
-    id:int
-    Usersname:text
-    Roles:int
-    Status:int
-    Password:text
-    Email:int
+entity Beat{
+      id GUID
+      interval
+      
   }
   
-  entity Request <<ENTITY>>{
-    id:int
-    Status:int
+  entity BeatType{
+      name
+      installer
   }
   
-  entity Tools <<ENTITY>>{
-    Name:text
-    id: int
-		
+  entity Source {
+      url
+      password
+      username
+      apikey
   }
     
-
-  entity Processed_data <<ENTITY>>{
-    type: text
-    id: int
-		
-  }
-
-
-
-  entity Raw_data <<ENTITY>>{
-    Text:text
-    Grahp:image
-    Diagrams:image
-    Grahp:image
-    Statistics: xml
-			
+    Beat "0,*" --- "1,1\ntype ( aka \nFB, VK, HTML)" BeatType
+    
+    Source "0,*"--"1,1" Beat
+    
+    
+    entity ServiceNode {
+        url (internal system uri)
+        name
+        description
+        openAPI yaml
+    }
+    
+    entity ServiceChain {
+        id
+        next
+    }
+  
+  
+  entity Stream {
+      name
+      description
+      etc
   }
   
- 
-  User "(0,*)"-u-"(1,1)" Request
-  Request "(0,*)"-u-"(1,1)"  Processed_data
-  Processed_data "(0,*)"-u-"(1,1)"  Tools
-  Tools "(0,*)"-u-"(1,1)"  Raw_data
+  ServiceChain "(0,*)"-- "(1,1)" ServiceNode
+  
+  ServiceChain "0,*"->"0,1\nnext" ServiceChain
+  
+  Stream  "0,*" --- "1,1\nentryPoint\n(first service in pipeline)" ServiceChain
+  
+  note "Stream is accociated with client task\n It includes many sources via beats and one pipeline of message processing services\n The last service is typicaly storage (Elasticsearch)" as n 
+  
+  n -- Stream
+  Beat "0,*" -u- "1,1" Stream
 
 @enduml
