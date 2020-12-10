@@ -1,92 +1,69 @@
 @startuml
-'-Пользователь-'
-  entity User
-  entity User.id
-  entity User.Usersname
-  entity User.Password
-  entity User.Email
-  entity User.Status
-  entity User.Role
+entity Source
+  entity Source.url
+  entity Source.password
+  entity Source.username
+  entity Source.apikey
 
-  object User.guest 
-  object User.registred  
-  object User.banned
-  object User.admin
-  object User.user
+  entity Stream
+  entity Stream.name
+  entity Stream.description
+  entity Stream.etc
 
+  entity Beat
+  entity Beat.idGuid
+  entity Beat.interval
 
-  
-  '-Запрос-'
-  entity Request
-  entity Request.id
-  entity Request.status
+  entity ServiceChain
+  entity ServiceChain.next
+  entity ServiceChain.id
 
-  
+  entity BeatType
+  entity BeatType.name
+  entity BeatType.installer
 
-  object Request.ready
-  object Request.in_process
-
-
-  'Инфа'
-  entity Processed_Data
-  entity Processed_Data.id
-  entity Processed_Data.type
+  entity ServiceNode
+  entity ServiceNode.url
+  entity ServiceNode.name
+  entity ServiceNode.description
+  entity ServiceNode.OpenApi_yaml
 
 
 
+  ServiceNode.url -u-* ServiceNode
+  ServiceNode.name -u-* ServiceNode
+  ServiceNode.description -u-* ServiceNode
+  ServiceNode.OpenApi_yaml -u-* ServiceNode
 
-  entity Untreated_Data
-  entity Untreated_Data.text
-  entity Untreated_Data.graph
-  entity Untreated_Data.diagrams 
-  entity Untreated_Data.statistics
 
+  BeatType.name -u-* BeatType
+  BeatType.installer -u-* BeatType
+
+
+  ServiceChain.id -u-* ServiceChain
+  ServiceChain.next -u-* ServiceChain
+
+
+  Beat.idGuid -u-* Beat
+  Beat.interval -u-* Beat
+
+  Stream.name -u-* Stream
+  Stream.description -u-* Stream
+  Stream.etc -u-* Stream
+
+  Source.url -u-* Source
+  Source.password -u-* Source
+  Source.username -u-* Source
+  Source.apikey -u-* Source
+
+
+
+  Beat "0,*" --- "1,1\ntype ( aka \nFB, VK, HTML)" BeatType
+
+  Source "0,*"--"1,1" Beat
  
-  'Инструмент'
-  entity Tools
-  entity Tools.name
-  entity Tools.id
-  
-   
-   
-  User.id -u-* User
-  User.Usersname -u-* User
-  User.Password -u-* User
-  User.Status -u-* User
-  User.Email -u-* User
-  User.Role -u-* User
-
-
-  User.guest .u.> User.Status : instanceOf
-  User.registred .u.> User.Status : instanceOf
-  User.banned .u.> User.Status : instanceOf
-  User.admin .u.> User.Role : instanceOf
-  User.user .u.> User.Role : instanceOf
-
-
-  Request.id -u-* Request
-  Request.status -u-* Request
-
-  Tools.id -u-* Tools
-  Tools.name -u-* Tools
-
-  Processed_Data.id -u-* Processed_Data
-  Processed_Data.type -u-* Processed_Data
-
-  Untreated_Data.text-u-* Untreated_Data
-  Untreated_Data.graph -u-* Untreated_Data
-  Untreated_Data.diagrams -u-* Untreated_Data
-  Untreated_Data.statistics -u-* Untreated_Data
- 
-
-
-  Request.ready .u.> Request.status : instanceOf
-  Request.in_process .u.> Request.status : instanceOf
-
-
-
-  User "(0,*)"-u-"(1,1)" Request
-  Request "(0,*)"-u-"(1,1)" Processed_Data 
-  Processed_Data "(0,*)"-u-"(1,1)" Tools
-  Tools "(0,*)"-u-"(1,1)" Untreated_Data
+  ServiceChain "(0,*)"-- "(1,1)" ServiceNode
+  Stream  "0,*" --- "1,1\nentryPoint\n(first service in pipeline)" ServiceChain
+  ServiceChain "0,*"->"0,1\nnext" ServiceChain
+  Beat "0,*" -u- "1,1" Stream
 @enduml
