@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
 connection.query(
     'select * from user',
     function(err, results, fields) {
-        console.log('########################## user_test')
+        console.log('########################## user')
         console.log(results)
     }
 );
