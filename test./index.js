@@ -1,3 +1,3 @@
-require("./connection_test").run()
-require("./user_test")
-require("./commit_test")
+require("./connection").run()
+require("./user")
+require("./commit")
