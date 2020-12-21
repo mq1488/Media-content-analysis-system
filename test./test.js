@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
 connection.query(
     'select * from commit',
     function(err, results, fields) {
-        console.log('########################## commit_test')
+        console.log('########################## commit')
         console.log(results)
     }
 )
