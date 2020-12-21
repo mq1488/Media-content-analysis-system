@@ -1,0 +1,27 @@
+{
+  "name": "amc",
+  "version": "1.0.0",
+  "description": "Service of analytical media content",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleh-Khomenko/AMC.git"
+  },
+  "author": "Oleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleh-Khomenko/AMC/issues"
+  },
+  "homepage": "https://github.com/Oleh-Khomenko/AMC#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
