@@ -1,5 +1,5 @@
 {
-  "name": "amc",
+  "name": "mcas",
   "version": "1.0.0",
   "description": "Service of analytical media content",
   "main": "index.js",
