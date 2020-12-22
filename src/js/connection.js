@@ -1,3 +1,3 @@
-const Sequelize = require("sequelize");
+const Sequilize = require('sequelize');
 
-module.exports = new Sequelize(require("../../config/database"));
+module.exports = new Sequilize(require('../../config/database'));
