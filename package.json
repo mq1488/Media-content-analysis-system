@@ -1,7 +1,7 @@
 {
-    "name": "regent-system",
+    "name": "Media content analysis system",
     "version": "1.0.0",
-    "description": "Regent System - analytical media content service",
+    "description": "Media content analysis system is an analytical media content service",
     "main": "index.js",
     "directories": {
         "doc": "docs",
