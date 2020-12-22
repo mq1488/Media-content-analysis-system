@@ -1,7 +1,7 @@
 module.exports = {
-    database: "First",
-    username: "root",
-    password: "w!uwjvPRa3h1",
-    host: "localhost",
-    dialect: 'mysql'
+    DATABASE_NAME: 'Media content analysis system',
+    DATABASE_USERNAME: 'root',
+    DATABASE_PASSWORD: '',
+    DATABASE_HOST: 'localhost',
+    DATABASE_DRIVER: 'mysql',
 }
