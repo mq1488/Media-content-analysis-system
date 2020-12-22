@@ -1,27 +1,34 @@
 {
-  "name": "mcas",
-  "version": "1.0.0",
-  "description": "Service of analytical media content",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "node ./test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Oleh-Khomenko/AMC.git"
-  },
-  "author": "Oleh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Oleh-Khomenko/AMC/issues"
-  },
-  "homepage": "https://github.com/Oleh-Khomenko/AMC#readme",
-  "dependencies": {
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
-  }
+    "name": "regent-system",
+    "version": "1.0.0",
+    "description": "Regent System - analytical media content service",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs",
+        "test": "tests"
+    },
+    "scripts": {
+        "test-db": "node ./tests/db",
+        "build-db": "node ./tests/build",
+        "test-app": "node ./tests/app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mq1488/Media-content-analysis-system.git"
+    },
+    "author": "IO-93, Team #3",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mq1488/Media-content-analysis-system/issues"
+    },
+    "homepage": "https://github.com/mq1488/Media-content-analysis-system#readme",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "cli-table3": "^0.6.0",
+        "fs": "^0.0.1-security",
+        "lodash-node": "^3.10.2",
+        "mysql2": "^2.2.5",
+        "path": "^0.12.7",
+        "sequelize": "^6.3.5"
+    }
 }
